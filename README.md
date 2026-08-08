@@ -13,12 +13,13 @@ Latest release: **v3.9 (2026-08-08)** — grab the installers from the
 
 | File | What | Size |
 | --- | --- | --- |
-| `Cosplay-Full-Setup.exe` | Self-extracting installer, Cosplay logo as its icon (recommended) | ~600 KB |
+| `Cosplay-Full-Setup.exe` | Self-extracting installer (recommended) | ~600 KB |
 | `Cosplay-Setup.cmd` | Self-extracting installer, same package (batch) | ~740 KB |
 
-Both files carry the identical package: double-click either one to install everything —
-portable Python / Node.js if the PC is missing them, the Claude Code CLI, the gateway,
-the Admin UI, and a desktop shortcut.
+Both files carry the identical **self-contained** package: **one run checks and installs
+every dependency** (portable Python / Node.js if missing, the Claude Code CLI, the gateway
+deps), configures everything, starts the server, and opens the Admin UI — nothing else to
+download or set up manually.
 
 ## Quick start
 
@@ -63,6 +64,9 @@ Cosplay is **provider-agnostic** — the Admin UI lets you add any of these four
 - Per-model **thinking levels** (Auto / Off / Light / Balanced / Deep / XHigh / Max) with a
   verified capability cap: levels at or below the cap show **✓ Working**, levels above are
   greyed out with **✗ Not Working**.
+- **Priority flow** — the Admin UI controls the thinking level (default: **Auto**). The
+  model you select in Claude Code is served through the gateway using that Admin-configured
+  level for its routing slot; Claude Code itself does not need to set it.
 - Thinking level is configured per **routing slot** (default / fast_tasks / heavy_analysis /
   research / fallback_1–3) and auto-saves when changed.
 
@@ -75,20 +79,12 @@ Cosplay is **provider-agnostic** — the Admin UI lets you add any of these four
 
 ## License
 
-MIT-based, **with two additional terms**:
-
-- Anyone may **use, edit, and redistribute** the software (including commercially as part
-  of your own services), provided the copyright notice stays intact.
-- You may **not sell** the Software itself, or charge for the Software / a product whose
-  main value is the Software.
-- You may **not use the name "Cosplay"** (or a confusingly similar name) for your own
-  derivative products — the name is reserved for the original project.
-
-Claude Code is Anthropic's CLI — check its license and terms before distributing this
-project alongside it.
+MIT **with one restriction**: you may **not sell** the Software, or charge for the Software /
+a product whose main value is the Software. Everything else is standard MIT — anyone may
+**use, edit, and redistribute**, provided the copyright notice stays intact.
 
 ```
-Cosplay License (MIT-based, with restrictions)
+MIT License (with no-sell clause)
 
 Copyright (c) 2026 Cosplay Contributors
 
@@ -103,9 +99,6 @@ subject to the following conditions:
 
 2. You may not sell the Software, or charge money for the Software or for any
    product whose main value is the Software.
-
-3. You may not use the name "Cosplay" (or any confusingly similar name) for
-   any product, service, or derivative work based on the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
