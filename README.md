@@ -79,28 +79,14 @@ Cosplay is **provider-agnostic** — the Admin UI lets you add any of these four
 
 ## License
 
-MIT, except: you may **not sell** the Software or a product whose main value is the Software.
-
 ```
-MIT License (with no-sell clause)
+MIT License — No-Sell Clause
+
 Copyright (c) 2026 Cosplay Contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, and distribute copies of the Software,
-subject to the following conditions:
 
-1. The above copyright notice and this permission notice shall be included in
-   all copies or substantial portions of the Software.
-2. You may not sell the Software, or charge money for the Software or for any
-   product whose main value is the Software.
+Free to use, copy, modify, and distribute, but you may not sell Cosplay or products whose main value is Cosplay.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+Software is provided “as is” without warranty or liability.
 ```
