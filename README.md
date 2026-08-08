@@ -79,13 +79,10 @@ Cosplay is **provider-agnostic** — the Admin UI lets you add any of these four
 
 ## License
 
-MIT **with one restriction**: you may **not sell** the Software, or charge for the Software /
-a product whose main value is the Software. Everything else is standard MIT — anyone may
-**use, edit, and redistribute**, provided the copyright notice stays intact.
+MIT, except: you may **not sell** the Software or a product whose main value is the Software.
 
 ```
 MIT License (with no-sell clause)
-
 Copyright (c) 2026 Cosplay Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -96,7 +93,6 @@ subject to the following conditions:
 
 1. The above copyright notice and this permission notice shall be included in
    all copies or substantial portions of the Software.
-
 2. You may not sell the Software, or charge money for the Software or for any
    product whose main value is the Software.
 
